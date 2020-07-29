@@ -3,7 +3,6 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-<<<<<<< HEAD
 .bg-img{
   background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)) , url('../images/bg.jpg');
   background-repeat: no-repeat;
@@ -33,42 +32,3 @@
   background-size: cover;
   background-attachment: fixed;
 }
-=======
-
-/*header-section*/
-		.nav-title {
-		    background-color: #17171785;/*background color of navbar*/
-		}
-		.carousel-item{
-			height: 450px;
-		}
-        
-        /*overlay color for navigation menu*/
-		.dark:after{
-			content:"";
-			display: block;
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			background-color: #415d70b8;
-			opacity: 0.6;
-
-		}
-		.carousel-caption{
-			margin-bottom: 130px;
-		}
-        
-        .carousel-caption h5{
-			text-transform: uppercase;
-		}
-         
-        .carousel-caption p{
-			font-size: 20px;
-		}
-
-
-
-
->>>>>>> ee6331f17690a687be0edacc41ee1e3e81f9d8cb
