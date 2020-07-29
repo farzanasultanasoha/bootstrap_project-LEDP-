@@ -3,12 +3,40 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-#card{
-  padding: 20px 0px;
-  font-size: medium;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.card{
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
+
+/*header-section*/
+		.nav-title {
+		    background-color: #17171785;/*background color of navbar*/
+		}
+		.carousel-item{
+			height: 450px;
+		}
+        
+        /*overlay color for navigation menu*/
+		.dark:after{
+			content:"";
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: #415d70b8;
+			opacity: 0.6;
+
+		}
+		.carousel-caption{
+			margin-bottom: 130px;
+		}
+        
+        .carousel-caption h5{
+			text-transform: uppercase;
+		}
+         
+        .carousel-caption p{
+			font-size: 20px;
+		}
+
+
+
+
